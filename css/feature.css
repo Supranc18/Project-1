@@ -1,0 +1,48 @@
+.main{
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+}
+.leftdiv img{
+    height: 700px;
+}
+.rightdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.rightdiv h1{
+    font-size: 80px;
+}
+.rightdiv h3{
+    font-size: 40px;
+    color: black;
+}
+button{
+    margin: 20px;
+    cursor: pointer;
+}
+.rightdiv button{
+    width: 200px;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.rightdiv button:hover{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.quantity{
+font-size: 30px;
+}
+.quantity input{
+    font-size: 25px;
+    width: 50px;
+}
